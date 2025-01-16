@@ -16,7 +16,7 @@ private:
     void render();
     void generateFood();
 
-    bool isRunning;
+    bool isRunning; 
     Snake snake;
     std::pair<int, int> food;
     const int gridWidth = 20;

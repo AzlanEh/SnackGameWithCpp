@@ -27,7 +27,7 @@ void Game::run()
 {
     // std::cout << "Entering game loop..." << std::endl;
 
-    const auto frameDuration = std::chrono::milliseconds(1000 / 2);
+    const auto frameDuration = std::chrono::milliseconds(1000 / 60);
 
     const auto snakeSpeed = std::chrono::milliseconds(500);
 
@@ -101,7 +101,7 @@ void Game::processInput()
         break;
     default:
         break;
-    }
+    } 
 }
 
 void Game::update()

@@ -39,3 +39,5 @@ logs
 *.exe
 *.out
 *.app
+snake_game
+obj/
